@@ -1,0 +1,118 @@
+html *
+{
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.weatherContainer {
+  width: 90%;
+  background: #FEF359;
+  margin: 10px auto;
+  text-align:center;
+}
+
+.weatherBlock {
+  background: #FFFFFF;
+  height: 220px;
+  width: 150px;
+  display:inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.weatherBlock:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input[type=number], select {
+    width: 10%;
+    padding: 5px 5px;
+    margin: 8px 4px;
+    display: inline-block;
+    border: 1px solid #5E4D0B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 #5E4D0B;
+    font-size: large;
+}
+
+.getWeatherButton {
+    background-color: #F4D03A;
+    color: white;
+    padding: 7px 15px;
+    margin: 8px 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 #5E4D0B;
+}
+
+.getWeatherButton:hover {
+    background-color: #5E4D0B;
+}
+
+.weatherImage {
+    width: 70px;
+    height: 70px;
+}
+
+.primaryLightText{
+    font-size: larger;
+    color: #F4D03A;
+    margin: 5px;
+}
+
+.secondaryLightText{
+    font-size: larger;
+    color: #E7A627;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.currentTemp{
+    font-size: xx-large;
+    color: #5E4D0B;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.primaryText{
+    font-size: larger;
+    color: #5E4D0B;
+}
+
+.secondaryText{
+    font-size: medium;
+    color: #A7841B;
+}
+
+.tipText{
+    font-size: x-small;
+    color: #F4D03A;
+}
+
+#leftDiv {
+   float: left;
+}
+#rightDiv {
+   float: right;
+}
+.clearBoth {
+   clear: both;
+}
+
+.detailsContainer{
+    width: 400px;
+    text-align: left;
+    margin: 20px;
+}
+
+.detailSecondaryText, .secondaryText{
+    margin: 5px;
+}

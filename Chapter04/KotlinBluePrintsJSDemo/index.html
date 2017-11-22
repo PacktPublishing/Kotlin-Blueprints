@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kotlin BluePrints JS Demo</title>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<div id="container" class="weatherContainer">
+
+</div>
+
+<script>
+    window.getShortDate = function(longDate) {
+        var options={month:'long', day:'numeric'};
+        return new Date(longDate*1000).toLocaleDateString('en-US',options);
+    }
+
+    window.getFullWeekDay = function(longDate) {
+        var options={weekday:'long'};
+        return new Date(longDate*1000).toLocaleDateString('en-US',options);
+    }
+
+    window.getFullDate = function(longDate) {
+        var options={weekday:'long', day:'numeric', month:'long',year:'numeric'};
+        return new Date(longDate*1000).toLocaleDateString('en-US',options);
+    }
+</script>
+
+<script src="out/production/KotlinBluePrintsJSDemo/lib/kotlin.js"></script>
+<script src="out/production/KotlinBluePrintsJSDemo/lib/kotlinx-html-js.js"></script>
+<script src="out/production/KotlinBluePrintsJSDemo/KotlinBluePrintsJSDemo.js"></script>
+
+</body>
+</html>
