@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/Users/hardik.trivedi/Hardik/Packt/BeSocial/linkedin-sdk/libs/volley.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/linkedin-sdk/libs/volley.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="twitter-text-1.14.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.14.3/71218d7dd9435e8b43e5ccf117bec37cb78fa2eb/twitter-text-1.14.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.14.3/a76789a9d7c7b01ef831c745330d2810c6d0b8a7/twitter-text-1.14.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

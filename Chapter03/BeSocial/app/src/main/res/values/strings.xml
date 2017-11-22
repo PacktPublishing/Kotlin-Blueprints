@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BeSocial</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">hQv5WXKK95NMlIdxsqEUrAzlB</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">QUfUXy4sFkruQWXpe5tg7KhufXPiXBVdRwFjdBg5kKl1BrH2xa</string>
+    <string name="connect_to_linked_in">Connect to Linked In</string>
+
+    <string name="profile">Profile</string>
+    <string name="cnt_followers">Followers</string>
+    <string name="cnt_friends">Friends</string>
+    <string name="cnt_retweet">Retweet</string>
+    <string name="twitter">Twitter</string>
+    <string name="be_social">Be\nSocial!</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="toolbar_title">Kotlin Blueprint companion app</string>
+    <string name="tweet_text">#KotlinBluePrint is an awesome book</string>
+</resources>

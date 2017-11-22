@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hardik.trivedi/Hardik/Packt/BeSocial/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/hardik.trivedi/Hardik/Packt/BeSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cbb2c05de00c0f0a0443db78021406e2014181b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hardik.trivedi/Hardik/Packt/BeSocial/linkedin-sdk/build/intermediates/bundles/default/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="665cdcc34ce1b904988530a63132163e8fc1efba">
+        <dex dex="/Users/hardik.trivedi/Hardik/Packt/BeSocial/app/build/intermediates/transforms/dex/debug/folders/1000/8/volley_e4bcdab16698006905731a4c02ac78fb95a12de8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hardik.trivedi/Hardik/Packt/BeSocial/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e5ca11f936f6c046d8843cf9fced3934d413935d">
+        <dex dex="/Users/hardik.trivedi/Hardik/Packt/BeSocial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b85d456bb02d239a9ad91439a57f5bb719aa34c/classes.dex" />
+    </item>
+
+</items>
