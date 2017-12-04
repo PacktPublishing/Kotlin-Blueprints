@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-family: "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*your background image*/
+    /*we want to have one single image not a repeated one*/
+    background: url(../images/black_texture.jpg) repeat;
+    background-size: cover; /*this sets the image to fullscreen covering the whole screen*/
+}
+
+ul {
+    list-style: none;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+/* Pages */
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nickNameInput {
+    background-color: #FFF;
+    text-align: center;
+    width: 300px;
+    padding: 5px 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: medium;
+    color: #000000;
+}
+
+.chatMessageInput {
+    background-color: #FFF;
+    text-align: center;
+    width: 600px;
+    padding: 5px 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: medium;
+    color: #000000;
+}
+
+.loginButton {
+    background-color: #186C20;
+    color: white;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.loginButton:hover {
+    background-color: #3c6c00;
+}
+
+.sendMessageButton {
+    background-color: #DF4417;
+    color: white;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.sendMessageButton:hover {
+    background-color: #df7300;
+}
+
+.title {
+    font-size: 200%;
+    color: white;
+    padding-top: 70px;
+    font-weight: lighter;
+}
+
+.chatWelcomeMessage {
+    font-size: 200%;
+    color: white;
+    padding-top: 70px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+hr {
+    display: block;
+    margin: 0.5em auto 35px;
+    border: 1px inset #1E80F0;
+}
+
+.chatWindow {
+    width: 80%;
+    margin: 0 10%;
+}
+
+#leftDiv {
+    float: left;
+    height: 430px;
+    width: 800px;
+    background: #FEDFA4;
+    border-radius: 5px;
+    opacity: 0.7
+}
+
+#rightDiv {
+    float: right;
+    height: 430px;
+    width: 250px;
+    background: #E0ED89;
+    border-radius: 5px;
+    opacity: 0.7
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.chatMessages {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.chatMessage {
+    color: black;
+    margin: 10px;
+}
+
+.log {
+    color: #616161;
+    font-size: 70%;
+    margin: 2px;
+    text-align: center;
+}
+
+.onlineUserList {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.onlineUserListItem {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ringInitials {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #3C6C00;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.filledInitials {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #df7300;
+}
+
+.filledInitialsMe {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #DF4417;
+}
+
+.onlineUserListItemText {
+    color: #3C6C00;
+}
+
+.sentMessages{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.receivedMessages{
+    text-align: left;
+    margin-left: 10px;
+}
